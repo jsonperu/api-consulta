@@ -6,8 +6,8 @@
 
 **Ejemplos de código para integrar la API de Json.pe en cualquier lenguaje de programación**
 
-[![Website](https://img.shields.io/badge/Website-json.pe-red?style=for-the-badge)](https://json.pe/)
-[![Documentación](https://img.shields.io/badge/Documentación-Completa-purple?style=for-the-badge)](https://docs.json.pe/)
+[![Website](https://img.shields.io/badge/Website-json.pe-red?style=for-the-badge)](https://json.pe)
+[![Documentación](https://img.shields.io/badge/Documentación-Completa-purple?style=for-the-badge)](https://docs.json.pe)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Languages](https://img.shields.io/badge/Languages-18-orange?style=for-the-badge)]()
 
@@ -48,15 +48,15 @@ Authorization: Bearer <token>
 
 > ⚠️ **Importante**: Reemplaza `<token>` con tu token real en cada ejemplo antes de ejecutarlo.
 > 
-> 💡 **¿No tienes token?** Regístrate en [app.json.pe](http://app.json.pe/) y genera tu token de acceso.
+> 💡 **¿No tienes token?** Regístrate en [app.json.pe](https://app.json.pe) y genera tu token de acceso.
 
 ---
 
 ## 📡 Endpoint
 
-Json.pe cuenta con una amplia gama de APIs disponibles para consultas de DNI, RUC, Placa, SOAT, Licencia de Conducir, Tipo de Cambio, CPE, y muchas más. 
+Json.pe cuenta con una amplia gama de APIs disponibles para consultas de DNI, RUC, Tipo de Cambio y muchas más. 
 
-> 📚 **¿Quieres ver todas las APIs disponibles?** Visita nuestra [documentación completa](https://docs.json.pe/) para conocer todos los endpoints y sus funcionalidades.
+> 📚 **¿Quieres ver todas las APIs disponibles?** Visita nuestra [documentación completa](https://docs.json.pe) para conocer todos los endpoints y sus funcionalidades.
 
 A continuación, te mostramos los 2 endpoints básicos más utilizados:
 
@@ -123,7 +123,7 @@ curl --request POST \
 ## 🚀 Inicio Rápido
 
 1. **Obtén tu token de acceso**
-   - Regístrate en [app.json.pe](http://app.json.pe/) y crea tu cuenta
+   - Regístrate en [app.json.pe](https://app.json.pe) y crea tu cuenta
    - Genera tu token de acceso desde el dashboard
 
 2. **Clona el repositorio**
@@ -175,13 +175,13 @@ curl --request POST \
 
 Conoce más sobre Json.pe, sus servicios, casos de uso y testimonios de clientes:
 
-🔗 **[https://json.pe/](https://json.pe/)**
+🔗 **[https://json.pe](https://json.pe)**
 
 ### 📖 Documentación Completa
 
-Para ver la documentación completa de todas las APIs disponibles (DNI, RUC, Placa, SOAT, Licencia de Conducir, y más), visita:
+Para ver la documentación completa de todas las APIs disponibles (DNI, RUC, Tipo de Cambio y más), visita:
 
-🔗 **[https://docs.json.pe/](https://docs.json.pe/)**
+🔗 **[https://docs.json.pe](https://docs.json.pe)**
 
 La documentación incluye:
 - ✅ Todos los endpoints disponibles
@@ -194,7 +194,7 @@ La documentación incluye:
 
 Para crear tu cuenta y generar tu token de acceso:
 
-🔗 **[http://app.json.pe/](http://app.json.pe/)**
+🔗 **[https://app.json.pe](https://app.json.pe)**
 
 Pasos:
 1. Regístrate en la plataforma
@@ -261,3 +261,8 @@ Hecho con ❤️ para la comunidad de desarrolladores
 [![API](https://img.shields.io/badge/API-JSON.pe-FF6B6B?style=for-the-badge)](https://api.json.pe)
 
 </div>
+
+<!--
+Keywords for GitHub search indexing:
+api dni, api reniec, api sunat, api tipo de cambio, api placa, api soat, api cpe, facturador pro, consulta dni peru, consulta ruc peru, api peru, json pe, jsonpe, api consulta peru, reniec api, sunat api, consulta vehicular peru, api facturacion electronica, integracion facturador pro, api peruana, servicios api peru
+-->
