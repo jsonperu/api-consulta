@@ -1,12 +1,14 @@
 <div align="center">
 
-![JSON.pe Logo](jsonpe.png)
+<img src="jsonpe.png" alt="JSON.pe Logo" width="200">
 
 # 🚀 JSON.pe API – Ejemplos Multilenguaje
 
 **Colección completa de ejemplos de código para integrar la API de JSON.pe en cualquier lenguaje de programación**
 
+[![Website](https://img.shields.io/badge/Website-json.pe-red?style=for-the-badge)](https://json.pe/)
 [![API](https://img.shields.io/badge/API-JSON.pe-blue?style=for-the-badge)](https://api.json.pe)
+[![Documentación](https://img.shields.io/badge/Documentación-Completa-purple?style=for-the-badge)](https://docs.json.pe/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Languages](https://img.shields.io/badge/Languages-18-orange?style=for-the-badge)]()
 
@@ -29,7 +31,7 @@
 
 ## ✨ Características
 
-- ✅ **18 lenguajes de programación** soportados
+- ✅ **18 lenguajes de programación** soportados y más
 - ✅ **Ejemplos listos para usar** - Solo reemplaza el token y ejecuta
 - ✅ **Desde Visual FoxPro hasta tecnologías modernas** - Cobertura completa
 - ✅ **Código limpio y documentado** - Fácil de entender y adaptar
@@ -133,6 +135,12 @@ curl --request POST \
 ---
 
 ## 📚 Documentación y Recursos
+
+### 🌐 Landing Page
+
+Conoce más sobre JSON.pe, sus servicios, casos de uso y testimonios de clientes:
+
+🔗 **[https://json.pe/](https://json.pe/)**
 
 ### 📖 Documentación Completa
 
