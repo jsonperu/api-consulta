@@ -171,7 +171,7 @@ curl --request POST \
 
 ## 📚 Documentación y Recursos
 
-### 🌐 Landing Page
+### 🌐 Sitio Web
 
 Conoce más sobre Json.pe, sus servicios, casos de uso y testimonios de clientes:
 
