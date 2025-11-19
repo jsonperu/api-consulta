@@ -21,8 +21,7 @@
 - [📡 Endpoint](#-endpoint)
 - [🚀 Inicio Rápido](#-inicio-rápido)
 - [💻 Lenguajes Disponibles](#-lenguajes-disponibles)
-- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-- [📖 Guía de Uso por Lenguaje](#-guía-de-uso-por-lenguaje)
+- [📚 Documentación y Recursos](#-documentación-y-recursos)
 - [🛠️ Buenas Prácticas](#️-buenas-prácticas)
 - [🤝 Contribuir](#-contribuir)
 
@@ -47,6 +46,8 @@ Authorization: Bearer <token>
 ```
 
 > ⚠️ **Importante**: Reemplaza `<token>` con tu token real en cada ejemplo antes de ejecutarlo.
+> 
+> 💡 **¿No tienes token?** Regístrate en [app.json.pe](http://app.json.pe/) y genera tu token de acceso.
 
 ---
 
@@ -84,21 +85,25 @@ curl --request POST \
 
 ## 🚀 Inicio Rápido
 
-1. **Clona el repositorio**
+1. **Obtén tu token de acceso**
+   - Regístrate en [app.json.pe](http://app.json.pe/) y crea tu cuenta
+   - Genera tu token de acceso desde el dashboard
+
+2. **Clona el repositorio**
    ```bash
    git clone https://github.com/tu-usuario/jsonpe-ejemplos.git
    cd jsonpe-ejemplos
    ```
 
-2. **Elige tu lenguaje**
+3. **Elige tu lenguaje**
    - Navega a la carpeta del lenguaje que prefieras
    - Abre el archivo de ejemplo
 
-3. **Configura tu token**
+4. **Configura tu token**
    - Reemplaza `<token>` con tu token real de JSON.pe
 
-4. **Ejecuta el ejemplo**
-   - Sigue las instrucciones específicas del lenguaje en la sección [Guía de Uso](#-guía-de-uso-por-lenguaje)
+5. **Ejecuta el ejemplo**
+   - Cada archivo contiene instrucciones comentadas para ejecutarlo
 
 ---
 
@@ -127,284 +132,32 @@ curl --request POST \
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📚 Documentación y Recursos
 
-```
-jsonpe-ejemplos/
-│
-├── 📄 README.md
-├── 🖼️ jsonpe.png
-├── 🎨 favicon.ico
-│
-├── 📁 curl/
-│   └── dni_ruc.sh
-│
-├── 📁 powershell/
-│   └── dni_ruc.ps1
-│
-├── 📁 javascript/
-│   └── dni_ruc.mjs
-│
-├── 📁 typescript/
-│   └── dni_ruc.ts
-│
-├── 📁 python/
-│   └── dni_ruc.py
-│
-├── 📁 java/
-│   └── DniRucClient.java
-│
-├── 📁 csharp/
-│   └── DniRucClient.cs
-│
-├── 📁 php/
-│   └── dni_ruc.php
-│
-├── 📁 ruby/
-│   └── dni_ruc.rb
-│
-├── 📁 go/
-│   └── main.go
-│
-├── 📁 rust/
-│   └── main.rs
-│
-├── 📁 swift/
-│   └── DniRucClient.swift
-│
-├── 📁 kotlin/
-│   └── DniRucClient.kt
-│
-├── 📁 dart/
-│   └── dni_ruc.dart
-│
-├── 📁 c/
-│   └── dni_ruc.c
-│
-├── 📁 cpp/
-│   └── dni_ruc.cpp
-│
-├── 📁 vbnet/
-│   └── DniRucClient.vb
-│
-└── 📁 visual_foxpro/
-    └── dni_ruc.prg
-```
+### 📖 Documentación Completa
 
----
+Para ver la documentación completa de todas las APIs disponibles (DNI, RUC, Placa, SOAT, Licencia de Conducir, y más), visita:
 
-## 📖 Guía de Uso por Lenguaje
+🔗 **[https://docs.json.pe/](https://docs.json.pe/)**
 
-### 🐚 Bash / cURL
+La documentación incluye:
+- ✅ Todos los endpoints disponibles
+- ✅ Ejemplos de request y response
+- ✅ Códigos de error y manejo
+- ✅ Límites y rate limiting
+- ✅ Integraciones con sistemas populares
 
-```bash
-cd curl
-chmod +x dni_ruc.sh
-./dni_ruc.sh
-```
+### 🔑 Crear Cuenta y Token
 
-**Requisitos:** `curl` instalado
+Para crear tu cuenta y generar tu token de acceso:
 
----
+🔗 **[http://app.json.pe/](http://app.json.pe/)**
 
-### 💻 PowerShell
-
-```powershell
-cd powershell
-pwsh dni_ruc.ps1
-```
-
-**Requisitos:** PowerShell 5.0 o superior
-
----
-
-### 📜 JavaScript (Node.js)
-
-```bash
-cd javascript
-npm install node-fetch  # Solo si usas Node < 18
-node dni_ruc.mjs
-```
-
-**Requisitos:** Node.js 18+ (o instalar `node-fetch@^3` para versiones anteriores)
-
----
-
-### 📘 TypeScript
-
-```bash
-cd typescript
-npm install -g tsx  # O usa tsc para compilar
-tsx dni_ruc.ts
-```
-
-**Requisitos:** Node.js 18+ (para `fetch` nativo) y TypeScript 4.5+
-
----
-
-### 🐍 Python
-
-```bash
-cd python
-pip install requests
-python dni_ruc.py
-```
-
-**Requisitos:** Python 3.7+ y `requests`
-
----
-
-### ☕ Java
-
-```bash
-cd java
-javac DniRucClient.java
-java DniRucClient
-```
-
-**Requisitos:** Java 11+ (usa `java.net.http`)
-
----
-
-### 🔷 C#
-
-```bash
-cd csharp
-dotnet run
-# O compila directamente:
-csc DniRucClient.cs
-```
-
-**Requisitos:** .NET 5+ SDK
-
----
-
-### 🐘 PHP
-
-```bash
-cd php
-php dni_ruc.php
-```
-
-**Requisitos:** PHP 7.4+ con extensión `curl`
-
----
-
-### 💎 Ruby
-
-```bash
-cd ruby
-ruby dni_ruc.rb
-```
-
-**Requisitos:** Ruby 2.7+ (usa `net/http` estándar)
-
----
-
-### 🐹 Go
-
-```bash
-cd go
-go run main.go
-```
-
-**Requisitos:** Go 1.18+
-
----
-
-### 🦀 Rust
-
-```bash
-cd rust
-cargo add reqwest serde_json anyhow
-cargo run
-```
-
-**Requisitos:** Rust 1.60+ y Cargo
-
----
-
-### 🍎 Swift
-
-```bash
-cd swift
-swift DniRucClient.swift
-# O compila:
-swiftc DniRucClient.swift -o dni_ruc
-./dni_ruc
-```
-
-**Requisitos:** Swift 5.5+ (usa Swift Concurrency)
-
----
-
-### 🔷 Kotlin
-
-```bash
-cd kotlin
-kotlinc DniRucClient.kt -include-runtime -d dni_ruc.jar
-java -jar dni_ruc.jar
-```
-
-**Requisitos:** Kotlin 1.6+ y JVM
-
----
-
-### 🎯 Dart
-
-```bash
-cd dart
-dart run dni_ruc.dart
-```
-
-**Requisitos:** Dart SDK 2.15+
-
----
-
-### ⚙️ C
-
-```bash
-cd c
-cc dni_ruc.c -lcurl -o dni_ruc
-./dni_ruc
-```
-
-**Requisitos:** Compilador C y `libcurl`
-
----
-
-### ⚙️ C++
-
-```bash
-cd cpp
-c++ dni_ruc.cpp -lcurl -o dni_ruc
-./dni_ruc
-```
-
-**Requisitos:** Compilador C++ y `libcurl`
-
----
-
-### 🔵 VB.NET
-
-```bash
-cd vbnet
-dotnet new console -lang vb
-# Copia DniRucClient.vb al proyecto
-dotnet run
-```
-
-**Requisitos:** .NET 5+ SDK
-
----
-
-### 🦊 Visual FoxPro
-
-1. Abre Visual FoxPro 9
-2. Navega a la carpeta `visual_foxpro/`
-3. Ejecuta: `DO dni_ruc.prg`
-
-**Requisitos:** Visual FoxPro 9.0
+Pasos:
+1. Regístrate en la plataforma
+2. Accede al dashboard
+3. Genera tu token de acceso
+4. ¡Listo para usar en tus ejemplos!
 
 ---
 
